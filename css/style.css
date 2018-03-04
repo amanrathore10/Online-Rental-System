@@ -1,0 +1,131 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family:sans-serif;
+}
+a{text-decoration: none;color:darkgrey}
+.header{
+    position: fixed;
+    width:100%;
+    list-style-type: none;
+    background-color: rgba(0,0,0,0.7);
+    box-sizing:border-box;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+    z-index:2;}
+.navigation-bar{
+    max-width: 1000px;
+    margin:0 auto;
+    text-align: center;
+}
+.header a,li{
+    display:inline-block;
+    min-width:200px;
+    font-size:20px;
+    padding:10px 20px;
+    color:white;text-decoration: none;
+}
+.overview-content{
+    padding:50px 0px;
+}
+.overview-content img{
+    position: relative;
+
+
+    display: block;
+    width:100%;
+    /*max-width:1000px;*/
+    margin:0 auto;
+}
+
+.items{
+    position: relative;
+    padding: 20px 0px;
+}
+.items-header,.about-header{
+    text-align: center;
+    font-size:20px;margin-bottom:20px;letter-spacing:2px;line-height:50px;
+    background:grey;padding:5px;color:white;background-color:#777777;text-decoration:underline orange;
+}
+.about-description{
+    text-align: center;
+    color:#555555;font-size: 20px;font-family:Serif;padding:5px;
+    max-width:800px;
+    margin:5px auto;
+}
+.item-container{
+    width:100%;padding:0px;background-color: rgba(0,0,0,0.05);min-height:100px;overflow-y: auto;
+    margin:50px 0px;
+}
+.item-container>div{width:50%;float:left;height:100%;
+}
+.item-container img{ position:relative;display:block;
+   width:100%;}
+.item-desription{
+    text-align: center;top:100px;
+    position: relative;color:grey;
+}
+.item-header{
+    font-weight:600;color:darkgrey;
+    letter-spacing: 1.5px;
+}
+.more-button{border-radius:25px;border:2px solid lawngreen;padding:10px 25px;color:green}
+
+.footer{
+    min-height:100px;
+    overflow-y: auto;
+    width:100%;
+
+}
+.footer>div{
+    float:left;height:100%;
+    width: 100%;
+}
+.apps{
+    max-width:300px;
+    height: 100%;
+
+}
+.apps img{
+    width: 100%;
+}
+.social,.help,.eor{
+    background-color: #dddddd;
+    list-style-type: none;
+    color: white;
+    max-width:340px;
+    color:white;text-align: center;font-size: 20px;
+    padding-top:20px;min-height:250px;
+}
+.social img{
+    width:25px;
+}
+.copyright{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:5px;
+
+}
+.dress-container{
+    padding:0px 0px 50px 100px;
+}
+.team{width:100%;}
+.team div{
+    width:33.33%;
+    float:left;
+    border:0.5px solid grey;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+}
+.team img{
+    width:100%;
+}
+.name-title{
+    min-width:100%;
+    background-color: #555555;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
